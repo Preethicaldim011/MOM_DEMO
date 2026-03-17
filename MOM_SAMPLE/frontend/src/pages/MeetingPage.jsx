@@ -155,7 +155,7 @@ function MeetingPage() {
       sno: meetingPoints.length + index + 1,
       function: project || '',
       projectName: project || '',
-      criticality: 'Medium',
+      criticality: 'high', //changed
       discussionPoint: point.text,
       responsibility: '',
       target: '',
